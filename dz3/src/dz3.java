@@ -40,7 +40,7 @@ public class dz3 {
             default -> System.out.println(resultSum);}
 
         int monthNumber =2;
-        int isLeap = 1;
+        int isLeap = 2;
         if(isLeap == 1 ) {//високостный
             switch (monthNumber){
                 case 1, 3, 5, 7, 8, 10, 12 -> System.out.println("31 день");
