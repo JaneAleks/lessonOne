@@ -24,8 +24,28 @@ public class dz2 {
         // значение скорости умножить на 1000 и разделить на 3600.
 
         int km_h = 120;
-        int m_s = (km_h * 1000) / 3600;
+        double m_s = (km_h * 1000) / 3600;
         System.out.println(m_s);
+
+        int florNumber = 1;
+        switch (florNumber){
+            case 1, 2 -> System.out.println("7");
+            case 3, 4 -> System.out.println("5");
+            case 5 -> System.out.println("2");
+            default -> System.out.println("ошибка");
+
+            int florNumber = 1;
+            switch (florNumber){
+                case 1, 2 -> System.out.println("7");
+                case 3, 4 -> System.out.println("5");
+                case 5 -> System.out.println("2");
+                default -> System.out.println("ошибка");
+        }
+        
+        }
+
+
+
 
     }
 }
