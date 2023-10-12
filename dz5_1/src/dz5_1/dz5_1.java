@@ -3,7 +3,9 @@ package dz5_1;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
-
+/*Объявить массив целых чисел. Длина массива - 15.
+Заполнить массив четными числами в диапазоне [10, 100). Для заполнения массива использовать цикл.
+*/
 public class dz5_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
