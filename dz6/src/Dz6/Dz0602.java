@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Dz0602 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String string1 = "Dog";
-        String string2 = "God";
+        String string1 = "God";
+        String string2 = "Dog";
 
         boolean areAnagrams = Arrays.equals(
                 string2 .toLowerCase().chars().sorted().toArray(),
